@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "SessionManagerConsoleMinimumRequriementPerms",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeInstances",
+                "ssm:DescribeSessions",
+                "ssm:DescribeInstanceProperties",
+                "ssm:GetConnectionStatus"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
